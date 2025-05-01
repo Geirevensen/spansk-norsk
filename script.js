@@ -63,7 +63,7 @@ function searchWord() {
                 <div class="entry">
                     <h3>${spanishWord} – ${norwegian}</h3>
                     <p>${pos}${gender ? " (" + gender + ")" : ""}${definition ? ": " + definition : ""}</p>
-                    ${inflectionsText ? `<p class="inflection">Bøyninger: ${inflectionsText}</p>` : ""}
+                    ${inflectionsText ? `<p class="inflection">Bøyninger:<br> ${inflectionsText}</p>` : ""}
                     <!-- ${tags ? `<p class="tags">Tagger: ${tags}</p>` : ""} -->
                     ${examplesText ? examplesText : ""}
                 </div>`;
