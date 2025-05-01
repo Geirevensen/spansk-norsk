@@ -45,7 +45,7 @@ function searchWord() {
                 for (let child of children) {
                     forms.push(`${child.tagName}: ${child.textContent}`);
                 }
-                inflectionsText = forms.join(", ");
+                inflectionsText = forms.join("<br>");
             }
 
             let examplesText = "";
