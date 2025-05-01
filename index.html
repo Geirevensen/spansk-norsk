@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spansk–norsk ordbok</title>
+  <style>
+    /* Enkel styling for lesbarhet */
+    body { font-family: sans-serif; margin: 2em; }
+    h1 { margin-bottom: 0.5em; }
+    #searchInput { padding: 0.5em; width: 200px; }
+    .entry { margin: 1em 0; }
+    .entry h3 { margin: 0; font-size: 1.1em; }
+    .entry p { margin: 0.2em 0 0.5em 0; }
+    .inflection { font-style: italic; color: #555; }
+    .tags { color: #0077aa; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+
+  <h1>Spansk–norsk ordbok</h1>
+  <input type="text" id="searchInput" placeholder="Søk etter spansk ord..." oninput="searchWord()" />
+  <button onclick="searchWord()">Søk</button>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

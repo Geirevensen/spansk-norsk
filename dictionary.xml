@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <entry>
+        <spanish>libro</spanish>
+        <norwegian>bok</norwegian>
+        <pos>substantiv</pos>
+        <gender>maskulin</gender>
+        <inflections>
+            <plural>libros</plural>
+        </inflections>
+        <definition>en trykt eller skrevet samling av sider bundet sammen</definition>
+        <examples>
+            <example>
+                <spanish>Estoy leyendo un libro.</spanish>
+                <norwegian>Jeg leser en bok.</norwegian>
+            </example>
+        </examples>
+        <tags>litteratur; entall/flertall</tags>
+    </entry>
+    <entry>
+        <spanish>hablar</spanish>
+        <norwegian>snakke</norwegian>
+        <pos>verb</pos>
+        <inflections>
+            <present>hablo, hablas, habla, hablamos, habláis, hablan</present>
+            <past>hablé, hablaste, habló, hablamos, hablasteis, hablaron</past>
+        </inflections>
+        <definition>å uttrykke seg med ord; å føre en samtale</definition>
+        <examples>
+            <example>
+                <spanish>Él puede hablar noruego.</spanish>
+                <norwegian>Han kan snakke norsk.</norwegian>
+            </example>
+        </examples>
+        <tags>kommunikasjon; regelmessig verb</tags>
+    </entry>
+    <!-- Flere <entry>-elementer for andre ord... -->
+</dictionary>
