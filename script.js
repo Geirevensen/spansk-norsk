@@ -43,7 +43,7 @@ function searchWord() {
                 const children = infl.children;
                 const forms = [];
                 for (let child of children) {
-                    forms.push(`${child.tagName}: ${child.textContent}`);
+                    forms.push(`${visNavn(child.tagName)}: ${child.textContent}`);
                 }
                 inflectionsText = forms.join("<br>");
             }
@@ -72,4 +72,15 @@ function searchWord() {
     if (matchCount === 0) {
         resultsDiv.innerHTML = "<p><em>Ingen treff.</em></p>";
     }
+  function visNavn(tag) {
+    const navn = {
+        present: "presens",
+        past: "preteritum",
+        future: "futurum",
+        imperative: "imperativ",
+        subjunctive: "konjunktiv",
+        participle: "partisipp"
+    };
+    return navn[tag] || tag; // hvis tag ikke finnes i ordboka, vis original
+}
 }
