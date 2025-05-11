@@ -35,7 +35,8 @@ function searchWord() {
     for (let entry of entries) {
         // Hent spansk ord (antar kun ett <spanish> per entry)
         const spanishWord = entry.getElementsByTagName("spanish")[0].textContent.toLowerCase();
-        if (spanishWord.startsWith(query)) {
+        const norwegianWord = entry.getElementsByTagName("norwegian")[0].textContent.toLowerCase();
+        if (spanishWord.startsWith(query) || norwegianWord.startsWith(query)) {
             matchCount++;
             // Hent datafelt fra XML for å vise
             const norwegian = entry.getElementsByTagName("norwegian")[0]?.textContent || "";
