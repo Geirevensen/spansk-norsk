@@ -8,7 +8,17 @@ fetch('dictionary.xml')
       xmlDoc = parser.parseFromString(xmlText, "text/xml");
   })
   .catch(err => console.error("Feil ved lasting av XML:", err));
-
+ function visNavn(tag) {
+    const navn = {
+        present: "presens",
+        past: "preteritum",
+        future: "futurum",
+        imperative: "imperativ",
+        subjunctive: "konjunktiv",
+        participle: "partisipp"
+    };
+    return navn[tag] || tag; // hvis tag ikke finnes i ordboka, vis original
+}
 // Søke-funksjon koblet til input-feltet
 function searchWord() {
     const query = document.getElementById("searchInput").value.toLowerCase().trim();
@@ -43,7 +53,7 @@ function searchWord() {
                 const children = infl.children;
                 const forms = [];
                 for (let child of children) {
-                    forms.push(`${visNavn(child.tagName)}: ${child.textContent}`);
+                    forms.push(`<strong>${visNavn(child.tagName)}:</strong> ${child.textContent}`);
                 }
                 inflectionsText = forms.join("<br>");
             }
@@ -61,7 +71,7 @@ function searchWord() {
             // Sett sammen HTML for denne oppføringen
             resultsDiv.innerHTML += `
                 <div class="entry">
-                    <h3>${spanishWord} – ${norwegian}</h3>
+                    <h3>${spanishWord} – ${norwegian} ${tags.includes("uregelmessig") ? "(irreg.)" : "(reg.)"}</h3>
                     <p>${pos}${gender ? " (" + gender + ")" : ""}${definition ? ": " + definition : ""}</p>
                     ${inflectionsText ? `<p class="inflection">Bøyninger:<br> ${inflectionsText}</p>` : ""}
                     <!-- ${tags ? `<p class="tags">Tagger: ${tags}</p>` : ""} -->
@@ -72,15 +82,4 @@ function searchWord() {
     if (matchCount === 0) {
         resultsDiv.innerHTML = "<p><em>Ingen treff.</em></p>";
     }
-  function visNavn(tag) {
-    const navn = {
-        present: "presens",
-        past: "preteritum",
-        future: "futurum",
-        imperative: "imperativ",
-        subjunctive: "konjunktiv",
-        participle: "partisipp"
-    };
-    return navn[tag] || tag; // hvis tag ikke finnes i ordboka, vis original
-}
 }
