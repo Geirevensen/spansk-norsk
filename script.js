@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(data, "application/xml");
       const entries = xmlDoc.getElementsByTagName("entry");
-
+    console.log("Antall oppslag:", entries.length);
       searchInput.addEventListener("input", function () {
         const query = searchInput.value.trim().toLowerCase();
         const strippedQuery = query.startsWith("å ") ? query.slice(2) : query;
