@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("search");
   const resultsDiv = document.getElementById("results");
 
-  fetch("dictionary_med_klasser.xml")
+  fetch("dictionary.xml")
     .then((response) => response.text())
     .then((data) => {
       const parser = new DOMParser();
