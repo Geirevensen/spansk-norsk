@@ -1,303 +1,905 @@
 <?xml version="1.0" ?>
 <dictionary>
+  
+  
   <entry>
+    
+    
     <spanish>hablar</spanish>
-    <norwegian>å snakke</norwegian>
+    
+    
+    <norwegian>snakke</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>regelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>hablo, hablas, habla, hablamos, habláis, hablan</presens>
+      
+      
       <preteritum>hablé, hablaste, habló, hablamos, hablasteis, hablaron</preteritum>
+      
+      
       <partisipp>hablado</partisipp>
+      
+      
       <gerundium>hablando</gerundium>
+      
+      
       <imperfektum>hablaba, hablabas, hablaba, hablábamos, hablabais, hablaban</imperfektum>
+      
+      
       <futurum>hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán</futurum>
+      
+      
       <imperativ>¡habla! (du), ¡hable! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>comer</spanish>
-    <norwegian>å spise</norwegian>
+    
+    
+    <norwegian>spise</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>regelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>como, comes, come, comemos, coméis, comen</presens>
+      
+      
       <preteritum>comí, comiste, comió, comimos, comisteis, comieron</preteritum>
+      
+      
       <partisipp>comido</partisipp>
+      
+      
       <gerundium>comiendo</gerundium>
+      
+      
       <imperfektum>comía, comías, comía, comíamos, comíais, comían</imperfektum>
+      
+      
       <futurum>comeré, comerás, comerá, comeremos, comeréis, comerán</futurum>
+      
+      
       <imperativ>¡come! (du), ¡coma! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>vivir</spanish>
-    <norwegian>å bo/leve</norwegian>
+    
+    
+    <norwegian>bo/leve</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>regelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>vivo, vives, vive, vivimos, vivís, viven</presens>
+      
+      
       <preteritum>viví, viviste, vivió, vivimos, vivisteis, vivieron</preteritum>
+      
+      
       <partisipp>vivido</partisipp>
+      
+      
       <gerundium>viviendo</gerundium>
+      
+      
       <imperfektum>vivía, vivías, vivía, vivíamos, vivíais, vivían</imperfektum>
+      
+      
       <futurum>viviré, vivirás, vivirá, viviremos, viviréis, vivirán</futurum>
+      
+      
       <imperativ>¡vive! (du), ¡viva! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>tener</spanish>
-    <norwegian>å ha (irreg.)</norwegian>
+    
+    
+    <norwegian>ha (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>tengo, tienes, tiene, tenemos, tenéis, tienen</presens>
+      
+      
       <preteritum>tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron</preteritum>
+      
+      
       <partisipp>tenido</partisipp>
+      
+      
       <gerundium>teniendo</gerundium>
+      
+      
       <imperfektum>tenía, tenías, tenía, teníamos, teníais, tenían</imperfektum>
+      
+      
       <futurum>tendré, tendrás, tendrá, tendremos, tendréis, tendrán</futurum>
+      
+      
       <imperativ>¡ten! (du), ¡tenga! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>ser</spanish>
-    <norwegian>å være (fast) (irreg.)</norwegian>
+    
+    
+    <norwegian>være (fast) (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>soy, eres, es, somos, sois, son</presens>
+      
+      
       <preteritum>fui, fuiste, fue, fuimos, fuisteis, fueron</preteritum>
+      
+      
       <partisipp>sido</partisipp>
+      
+      
       <gerundium>siendo</gerundium>
+      
+      
       <imperfektum>era, eras, era, éramos, erais, eran</imperfektum>
+      
+      
       <futurum>seré, serás, será, seremos, seréis, serán</futurum>
+      
+      
       <imperativ>¡sé! (du), ¡sea! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>estar</spanish>
-    <norwegian>å være (midl.) (irreg.)</norwegian>
+    
+    
+    <norwegian>være (midl.) (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>estoy, estás, está, estamos, estáis, están</presens>
+      
+      
       <preteritum>estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron</preteritum>
+      
+      
       <partisipp>estado</partisipp>
+      
+      
       <gerundium>estando</gerundium>
+      
+      
       <imperfektum>estaba, estabas, estaba, estábamos, estabais, estaban</imperfektum>
+      
+      
       <futurum>estaré, estarás, estará, estaremos, estaréis, estarán</futurum>
+      
+      
       <imperativ>¡está! (du), ¡esté! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>ir</spanish>
-    <norwegian>å gå/dra (irreg.)</norwegian>
+    
+    
+    <norwegian>gå/dra (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>voy, vas, va, vamos, vais, van</presens>
+      
+      
       <preteritum>fui, fuiste, fue, fuimos, fuisteis, fueron</preteritum>
+      
+      
       <partisipp>ido</partisipp>
+      
+      
       <gerundium>iendo</gerundium>
+      
+      
       <imperfektum>iba, ibas, iba, íbamos, ibais, iban</imperfektum>
+      
+      
       <futurum>iré, irás, irá, iremos, iréis, irán</futurum>
+      
+      
       <imperativ>¡ve! (du), ¡vaya! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>hacer</spanish>
-    <norwegian>å gjøre (irreg.)</norwegian>
+    
+    
+    <norwegian>gjøre (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>hago, haces, hace, hacemos, hacéis, hacen</presens>
+      
+      
       <preteritum>hice, hiciste, hizo, hicimos, hicisteis, hicieron</preteritum>
+      
+      
       <partisipp>hecho</partisipp>
+      
+      
       <gerundium>haciendo</gerundium>
+      
+      
       <imperfektum>hacía, hacías, hacía, hacíamos, hacíais, hacían</imperfektum>
+      
+      
       <futurum>haré, harás, hará, haremos, haréis, harán</futurum>
+      
+      
       <imperativ>¡haz! (du), ¡haga! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>decir</spanish>
-    <norwegian>å si (irreg.)</norwegian>
+    
+    
+    <norwegian>si (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>digo, dices, dice, decimos, decís, dicen</presens>
+      
+      
       <preteritum>dije, dijiste, dijo, dijimos, dijisteis, dijeron</preteritum>
+      
+      
       <partisipp>dicho</partisipp>
+      
+      
       <gerundium>deciendo</gerundium>
+      
+      
       <imperfektum>decía, decías, decía, decíamos, decíais, decían</imperfektum>
+      
+      
       <futurum>diré, dirás, dirá, diremos, diréis, dirán</futurum>
+      
+      
       <imperativ>¡di! (du), ¡diga! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>poder</spanish>
-    <norwegian>å kunne (irreg.)</norwegian>
+    
+    
+    <norwegian>kunne (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>puedo, puedes, puede, podemos, podéis, pueden</presens>
+      
+      
       <preteritum>pude, pudiste, pudo, pudimos, pudisteis, pudieron</preteritum>
+      
+      
       <partisipp>podido</partisipp>
+      
+      
       <gerundium>podiendo</gerundium>
+      
+      
       <imperfektum>podía, podías, podía, podíamos, podíais, podían</imperfektum>
+      
+      
       <futurum>podré, podrás, podrá, podremos, podréis, podrán</futurum>
+      
+      
       <imperativ>—</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>ver</spanish>
-    <norwegian>å se (irreg.)</norwegian>
+    
+    
+    <norwegian>se (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>veo, ves, ve, vemos, veis, ven</presens>
+      
+      
       <preteritum>vi, viste, vio, vimos, visteis, vieron</preteritum>
+      
+      
       <partisipp>visto</partisipp>
+      
+      
       <gerundium>viendo</gerundium>
+      
+      
       <imperfektum>veía, veías, veía, veíamos, veíais, veían</imperfektum>
+      
+      
       <futurum>veré, verás, verá, veremos, veréis, verán</futurum>
+      
+      
       <imperativ>¡ve! (du), ¡vea! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>dar</spanish>
-    <norwegian>å gi (irreg.)</norwegian>
+    
+    
+    <norwegian>gi (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>doy, das, da, damos, dais, dan</presens>
+      
+      
       <preteritum>di, diste, dio, dimos, disteis, dieron</preteritum>
+      
+      
       <partisipp>dado</partisipp>
+      
+      
       <gerundium>dando</gerundium>
+      
+      
       <imperfektum>daba, dabas, daba, dábamos, dabais, daban</imperfektum>
+      
+      
       <futurum>daré, darás, dará, daremos, daréis, darán</futurum>
+      
+      
       <imperativ>¡da! (du), ¡dé! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>saber</spanish>
-    <norwegian>å vite (irreg.)</norwegian>
+    
+    
+    <norwegian>vite (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>sé, sabes, sabe, sabemos, sabéis, saben</presens>
+      
+      
       <preteritum>supe, supiste, supo, supimos, supisteis, supieron</preteritum>
+      
+      
       <partisipp>sabido</partisipp>
+      
+      
       <gerundium>sabiendo</gerundium>
+      
+      
       <imperfektum>sabía, sabías, sabía, sabíamos, sabíais, sabían</imperfektum>
+      
+      
       <futurum>sabré, sabrás, sabrá, sabremos, sabréis, sabrán</futurum>
+      
+      
       <imperativ>¡sepa! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>querer</spanish>
-    <norwegian>å ville/ønske (irreg.)</norwegian>
+    
+    
+    <norwegian>ville/ønske (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>quiero, quieres, quiere, queremos, queréis, quieren</presens>
+      
+      
       <preteritum>quise, quisiste, quiso, quisimos, quisisteis, quisieron</preteritum>
+      
+      
       <partisipp>querido</partisipp>
+      
+      
       <gerundium>queriendo</gerundium>
+      
+      
       <imperfektum>quería, querías, quería, queríamos, queríais, querían</imperfektum>
+      
+      
       <futurum>querré, querrás, querrá, querremos, querréis, querrán</futurum>
+      
+      
       <imperativ>—</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>llegar</spanish>
-    <norwegian>å ankomme</norwegian>
+    
+    
+    <norwegian>ankomme</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>regelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>llego, llegas, llega, llegamos, llegáis, llegan</presens>
+      
+      
       <preteritum>llegué, llegaste, llegó, llegamos, llegasteis, llegaron</preteritum>
+      
+      
       <partisipp>llegado</partisipp>
+      
+      
       <gerundium>llegando</gerundium>
+      
+      
       <imperfektum>llegaba, llegabas, llegaba, llegábamos, llegabais, llegaban</imperfektum>
+      
+      
       <futurum>llegaré, llegarás, llegará, llegaremos, llegaréis, llegarán</futurum>
+      
+      
       <imperativ>¡llega! (du), ¡llegue! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>poner</spanish>
-    <norwegian>å sette/legge (irreg.)</norwegian>
+    
+    
+    <norwegian>sette/legge (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>pongo, pones, pone, ponemos, ponéis, ponen</presens>
+      
+      
       <preteritum>puse, pusiste, puso, pusimos, pusisteis, pusieron</preteritum>
+      
+      
       <partisipp>puesto</partisipp>
+      
+      
       <gerundium>poniendo</gerundium>
+      
+      
       <imperfektum>ponía, ponías, ponía, poníamos, poníais, ponían</imperfektum>
+      
+      
       <futurum>pondré, pondrás, pondrá, pondremos, pondréis, pondrán</futurum>
+      
+      
       <imperativ>¡pon! (du), ¡ponga! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>salir</spanish>
-    <norwegian>å gå ut (irreg.)</norwegian>
+    
+    
+    <norwegian>gå ut (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>salgo, sales, sale, salimos, salís, salen</presens>
+      
+      
       <preteritum>salí, saliste, salió, salimos, salisteis, salieron</preteritum>
+      
+      
       <partisipp>salido</partisipp>
+      
+      
       <gerundium>saliendo</gerundium>
+      
+      
       <imperfektum>salía, salías, salía, salíamos, salíais, salían</imperfektum>
+      
+      
       <futurum>saldré, saldrás, saldrá, saldremos, saldréis, saldrán</futurum>
+      
+      
       <imperativ>¡sal! (du), ¡salga! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>venir</spanish>
-    <norwegian>å komme (irreg.)</norwegian>
+    
+    
+    <norwegian>komme (irreg.)</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>uregelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>vengo, vienes, viene, venimos, venís, vienen</presens>
+      
+      
       <preteritum>vine, viniste, vino, vinimos, vinisteis, vinieron</preteritum>
+      
+      
       <partisipp>venido</partisipp>
+      
+      
       <gerundium>veniendo</gerundium>
+      
+      
       <imperfektum>venía, venías, venía, veníamos, veníais, venían</imperfektum>
+      
+      
       <futurum>vendré, vendrás, vendrá, vendremos, vendréis, vendrán</futurum>
+      
+      
       <imperativ>¡ven! (du), ¡venga! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>llevar</spanish>
-    <norwegian>å bære/ha på</norwegian>
+    
+    
+    <norwegian>bære/ha på</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>regelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>llevo, llevas, lleva, llevamos, lleváis, llevan</presens>
+      
+      
       <preteritum>llevé, llevaste, llevó, llevamos, llevasteis, llevaron</preteritum>
+      
+      
       <partisipp>llevado</partisipp>
+      
+      
       <gerundium>llevando</gerundium>
+      
+      
       <imperfektum>llevaba, llevabas, llevaba, llevábamos, llevabais, llevaban</imperfektum>
+      
+      
       <futurum>llevaré, llevarás, llevará, llevaremos, llevaréis, llevarán</futurum>
+      
+      
       <imperativ>¡lleva! (du), ¡lleve! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+  
   <entry>
+    
+    
     <spanish>tomar</spanish>
-    <norwegian>å ta</norwegian>
+    
+    
+    <norwegian>ta</norwegian>
+    
+    
     <pos>verb</pos>
+    
+    
     <tags>regelmessig</tags>
+    
+    
     <inflections>
+      
+      
       <presens>tomo, tomas, toma, tomamos, tomáis, toman</presens>
+      
+      
       <preteritum>tomé, tomaste, tomó, tomamos, tomasteis, tomaron</preteritum>
+      
+      
       <partisipp>tomado</partisipp>
+      
+      
       <gerundium>tomando</gerundium>
+      
+      
       <imperfektum>tomaba, tomabas, tomaba, tomábamos, tomabais, tomaban</imperfektum>
+      
+      
       <futurum>tomaré, tomarás, tomará, tomaremos, tomaréis, tomarán</futurum>
+      
+      
       <imperativ>¡toma! (du), ¡tome! (De)</imperativ>
+      
+    
     </inflections>
+    
+  
   </entry>
+  
+
 </dictionary>
