@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>Spansk–norsk ordbok</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    input#search {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+    .result {
+      border-top: 1px solid #ccc;
+      padding-top: 1rem;
+      margin-top: 1rem;
+    }
+    .inflection {
+      margin-top: 0.5rem;
+    }
+    .tags {
+      margin-top: 0.5rem;
+      color: #666;
+    }
+    .tag {
+      display: inline-block;
+      background: #eee;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.3rem;
+      margin-right: 0.3rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Spansk–norsk ordbok</h1>
+  <input type="text" id="search" placeholder="Skriv et ord...">
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
