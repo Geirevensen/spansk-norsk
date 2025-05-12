@@ -8,7 +8,7 @@
     <spanish>hablar</spanish>
     
     
-    <norwegian>snakke</norwegian>
+    <norwegian>å snakke</norwegian>
     
     
     <pos>verb</pos>
@@ -38,7 +38,7 @@
       <futurum>hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán</futurum>
       
       
-      <imperativ>¡habla!, no habla</imperativ>
+      <imperativ>¡habla! (du), no hables</imperativ>
       
     
     </inflections>
@@ -53,7 +53,7 @@
     <spanish>comer</spanish>
     
     
-    <norwegian>spise</norwegian>
+    <norwegian>å spise</norwegian>
     
     
     <pos>verb</pos>
@@ -83,7 +83,7 @@
       <futurum>comeré, comerás, comerá, comeremos, comeréis, comerán</futurum>
       
       
-      <imperativ>¡come!, no come</imperativ>
+      <imperativ>¡come! (du), no comas</imperativ>
       
     
     </inflections>
@@ -98,7 +98,7 @@
     <spanish>vivir</spanish>
     
     
-    <norwegian>bo/leve</norwegian>
+    <norwegian>å bo/leve</norwegian>
     
     
     <pos>verb</pos>
@@ -128,7 +128,7 @@
       <futurum>viviré, vivirás, vivirá, viviremos, viviréis, vivirán</futurum>
       
       
-      <imperativ>¡vive!, no vive</imperativ>
+      <imperativ>¡vive! (du), no vivas</imperativ>
       
     
     </inflections>
@@ -143,7 +143,7 @@
     <spanish>tener</spanish>
     
     
-    <norwegian>ha</norwegian>
+    <norwegian>å ha (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -173,7 +173,7 @@
       <futurum>tendré, tendrás, tendrá, tendremos, tendréis, tendrán</futurum>
       
       
-      <imperativ>¡ten!, no ten</imperativ>
+      <imperativ>¡ten! (du), no tenas</imperativ>
       
     
     </inflections>
@@ -188,7 +188,7 @@
     <spanish>ser</spanish>
     
     
-    <norwegian>være (fast)</norwegian>
+    <norwegian>å være (fast) (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -218,7 +218,7 @@
       <futurum>seré, serás, será, seremos, seréis, serán</futurum>
       
       
-      <imperativ>¡sé!, no sé</imperativ>
+      <imperativ>¡sé! (du), no sas</imperativ>
       
     
     </inflections>
@@ -233,7 +233,7 @@
     <spanish>estar</spanish>
     
     
-    <norwegian>være (midl.)</norwegian>
+    <norwegian>å være (midl.) (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -263,7 +263,7 @@
       <futurum>estaré, estarás, estará, estaremos, estaréis, estarán</futurum>
       
       
-      <imperativ>¡está!, no está</imperativ>
+      <imperativ>¡está! (du), no estes</imperativ>
       
     
     </inflections>
@@ -278,7 +278,7 @@
     <spanish>ir</spanish>
     
     
-    <norwegian>gå/dra</norwegian>
+    <norwegian>å gå/dra (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -308,7 +308,7 @@
       <futurum>iré, irás, irá, iremos, iréis, irán</futurum>
       
       
-      <imperativ>¡ve!, no ve</imperativ>
+      <imperativ>¡ve! (du), no as</imperativ>
       
     
     </inflections>
@@ -323,7 +323,7 @@
     <spanish>hacer</spanish>
     
     
-    <norwegian>gjøre</norwegian>
+    <norwegian>å gjøre (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -353,7 +353,7 @@
       <futurum>haré, harás, hará, haremos, haréis, harán</futurum>
       
       
-      <imperativ>¡haz!, no haz</imperativ>
+      <imperativ>¡haz! (du), no hacas</imperativ>
       
     
     </inflections>
@@ -368,7 +368,7 @@
     <spanish>decir</spanish>
     
     
-    <norwegian>si</norwegian>
+    <norwegian>å si (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -398,7 +398,7 @@
       <futurum>diré, dirás, dirá, diremos, diréis, dirán</futurum>
       
       
-      <imperativ>¡di!, no di</imperativ>
+      <imperativ>¡di! (du), no decas</imperativ>
       
     
     </inflections>
@@ -413,7 +413,7 @@
     <spanish>poder</spanish>
     
     
-    <norwegian>kunne</norwegian>
+    <norwegian>å kunne (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -443,7 +443,7 @@
       <futurum>podré, podrás, podrá, podremos, podréis, podrán</futurum>
       
       
-      <imperativ>—</imperativ>
+      <imperativ>, no podas</imperativ>
       
     
     </inflections>
@@ -458,7 +458,7 @@
     <spanish>ver</spanish>
     
     
-    <norwegian>se</norwegian>
+    <norwegian>å se (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -488,7 +488,7 @@
       <futurum>veré, verás, verá, veremos, veréis, verán</futurum>
       
       
-      <imperativ>¡ve!, no ve</imperativ>
+      <imperativ>¡ve! (du), no vas</imperativ>
       
     
     </inflections>
@@ -503,7 +503,7 @@
     <spanish>dar</spanish>
     
     
-    <norwegian>gi</norwegian>
+    <norwegian>å gi (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -533,7 +533,7 @@
       <futurum>daré, darás, dará, daremos, daréis, darán</futurum>
       
       
-      <imperativ>¡da!, no da</imperativ>
+      <imperativ>¡da! (du), no des</imperativ>
       
     
     </inflections>
@@ -548,7 +548,7 @@
     <spanish>saber</spanish>
     
     
-    <norwegian>vite</norwegian>
+    <norwegian>å vite (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -578,7 +578,7 @@
       <futurum>sabré, sabrás, sabrá, sabremos, sabréis, sabrán</futurum>
       
       
-      <imperativ/>
+      <imperativ>¡sepa! (De), no sabas</imperativ>
       
     
     </inflections>
@@ -593,7 +593,7 @@
     <spanish>querer</spanish>
     
     
-    <norwegian>ville/ønske</norwegian>
+    <norwegian>å ville/ønske (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -623,7 +623,7 @@
       <futurum>querré, querrás, querrá, querremos, querréis, querrán</futurum>
       
       
-      <imperativ>—</imperativ>
+      <imperativ>, no queras</imperativ>
       
     
     </inflections>
@@ -638,7 +638,7 @@
     <spanish>llegar</spanish>
     
     
-    <norwegian>ankomme</norwegian>
+    <norwegian>å ankomme</norwegian>
     
     
     <pos>verb</pos>
@@ -668,7 +668,7 @@
       <futurum>llegaré, llegarás, llegará, llegaremos, llegaréis, llegarán</futurum>
       
       
-      <imperativ>¡llega!, no llega</imperativ>
+      <imperativ>¡llega! (du), no lleges</imperativ>
       
     
     </inflections>
@@ -683,7 +683,7 @@
     <spanish>poner</spanish>
     
     
-    <norwegian>sette/legge</norwegian>
+    <norwegian>å sette/legge (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -713,7 +713,7 @@
       <futurum>pondré, pondrás, pondrá, pondremos, pondréis, pondrán</futurum>
       
       
-      <imperativ>¡pon!, no pon</imperativ>
+      <imperativ>¡pon! (du), no ponas</imperativ>
       
     
     </inflections>
@@ -728,7 +728,7 @@
     <spanish>salir</spanish>
     
     
-    <norwegian>gå ut</norwegian>
+    <norwegian>å gå ut (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -758,7 +758,7 @@
       <futurum>saldré, saldrás, saldrá, saldremos, saldréis, saldrán</futurum>
       
       
-      <imperativ>¡sal!, no sal</imperativ>
+      <imperativ>¡sal! (du), no salas</imperativ>
       
     
     </inflections>
@@ -773,7 +773,7 @@
     <spanish>venir</spanish>
     
     
-    <norwegian>komme</norwegian>
+    <norwegian>å komme (irreg.)</norwegian>
     
     
     <pos>verb</pos>
@@ -803,7 +803,7 @@
       <futurum>vendré, vendrás, vendrá, vendremos, vendréis, vendrán</futurum>
       
       
-      <imperativ>¡ven!, no ven</imperativ>
+      <imperativ>¡ven! (du), no venas</imperativ>
       
     
     </inflections>
@@ -818,7 +818,7 @@
     <spanish>llevar</spanish>
     
     
-    <norwegian>bære/ha på</norwegian>
+    <norwegian>å bære/ha på</norwegian>
     
     
     <pos>verb</pos>
@@ -848,7 +848,7 @@
       <futurum>llevaré, llevarás, llevará, llevaremos, llevaréis, llevarán</futurum>
       
       
-      <imperativ>¡lleva!, no lleva</imperativ>
+      <imperativ>¡lleva! (du), no lleves</imperativ>
       
     
     </inflections>
@@ -863,7 +863,7 @@
     <spanish>tomar</spanish>
     
     
-    <norwegian>ta</norwegian>
+    <norwegian>å ta</norwegian>
     
     
     <pos>verb</pos>
@@ -893,7 +893,7 @@
       <futurum>tomaré, tomarás, tomará, tomaremos, tomaréis, tomarán</futurum>
       
       
-      <imperativ>¡toma!, no toma</imperativ>
+      <imperativ>¡toma! (du), no tomes</imperativ>
       
     
     </inflections>
@@ -902,4 +902,11 @@
   </entry>
   
 
+  <entry>
+    <spanish>mano</spanish>
+    <norwegian>hånd</norwegian>
+    <pos>substantiv</pos>
+    <gender>f</gender>
+    <tags>kropp</tags>
+  </entry>
 </dictionary>
