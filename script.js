@@ -72,7 +72,7 @@ function searchWord() {
             // Sett sammen HTML for denne oppføringen
             resultsDiv.innerHTML += `
                 <div class="entry">
-                    <h3>${spanishWord} – ${norwegian} ${tags.includes("uregelmessig") ? "(irreg.)" : "(reg.)"}</h3>
+                    <h3>${spanishWord} – ${pos === "verb" ? "å " + norwegian : norwegian} ${tags.includes("uregelmessig") ? "(irreg.)" : "(reg.)"}</h3>
                     <p>${pos}${gender ? " (" + gender + ")" : ""}${definition ? ": " + definition : ""}</p>
                     ${inflectionsText ? `<p class="inflection">Bøyninger:<br> ${inflectionsText}</p>` : ""}
                     <!-- ${tags ? `<p class="tags">Tagger: ${tags}</p>` : ""} -->
