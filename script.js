@@ -1,86 +1,89 @@
-// Last inn XML-filen når siden lastes
-let xmlDoc = null;
-fetch('dictionary.xml')
-  .then(response => response.text())
-  .then(xmlText => {
-      // Parse XML-tekst til et XML DOM-dokument
+
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("search");
+  const resultsDiv = document.getElementById("results");
+
+  fetch("dictionary_med_klasser.xml")
+    .then((response) => response.text())
+    .then((data) => {
       const parser = new DOMParser();
-      xmlDoc = parser.parseFromString(xmlText, "text/xml");
-  })
-  .catch(err => console.error("Feil ved lasting av XML:", err));
- function visNavn(tag) {
-    const navn = {
-        present: "presens",
-        past: "preteritum",
-        future: "futurum",
-        imperative: "imperativ",
-        subjunctive: "konjunktiv",
-        participle: "partisipp"
-    };
-    return navn[tag] || tag; // hvis tag ikke finnes i ordboka, vis original
-}
-// Søke-funksjon koblet til input-feltet
-function searchWord() {
-    const query = document.getElementById("searchInput").value.toLowerCase().trim();
-    const resultsDiv = document.getElementById("results");
-    resultsDiv.innerHTML = "";  // tøm tidligere resultater
+      const xmlDoc = parser.parseFromString(data, "application/xml");
+      const entries = xmlDoc.getElementsByTagName("entry");
 
-    if (!xmlDoc || query === "") {
-        // XML ikke lastet enda, eller tomt søk
-        return;
-    }
-    // Hent alle <entry>-elementer fra XML
-    const entries = xmlDoc.getElementsByTagName("entry");
-    let matchCount = 0;
-    for (let entry of entries) {
-        // Hent spansk ord (antar kun ett <spanish> per entry)
-        const spanishWord = entry.getElementsByTagName("spanish")[0].textContent.toLowerCase();
-        const norwegianWord = entry.getElementsByTagName("norwegian")[0].textContent.toLowerCase();
-        if (spanishWord.startsWith(query) || norwegianWord.startsWith(query)) {
-            matchCount++;
-            // Hent datafelt fra XML for å vise
-            const norwegian = entry.getElementsByTagName("norwegian")[0]?.textContent || "";
-            const pos = entry.getElementsByTagName("pos")[0]?.textContent || "";
-            const gender = entry.getElementsByTagName("gender")[0]?.textContent || "";
-            const definition = entry.getElementsByTagName("definition")[0]?.textContent || "";
-            const tags = entry.getElementsByTagName("tags")[0]?.textContent || "";
+      searchInput.addEventListener("input", function () {
+        const query = searchInput.value.trim().toLowerCase();
+        const strippedQuery = query.startsWith("å ") ? query.slice(2) : query;
 
-            // Bygg HTML for bøyninger og eksempler
+        resultsDiv.innerHTML = "";
+
+        Array.from(entries).forEach((entry) => {
+          const spanishWord = entry.getElementsByTagName("spanish")[0].textContent.toLowerCase();
+          const norwegianWord = entry.getElementsByTagName("norwegian")[0].textContent.toLowerCase();
+          const pos = entry.getElementsByTagName("pos")[0]?.textContent.toLowerCase() || "";
+          const tags = entry.getElementsByTagName("tags")[0]?.textContent.toLowerCase() || "";
+          const regular = entry.getElementsByTagName("regular")[0]?.textContent.toLowerCase() || "";
+          const gender = entry.getElementsByTagName("gender")[0]?.textContent.toLowerCase() || "";
+
+          const match =
+            spanishWord.includes(query) ||
+            norwegianWord.includes(query) ||
+            norwegianWord.includes(strippedQuery);
+
+          if (match) {
+            const inflections = entry.getElementsByTagName("inflections")[0];
             let inflectionsText = "";
-            const inflNodes = entry.getElementsByTagName("inflections");
-            if (inflNodes.length > 0) {
-                const infl = inflNodes[0]; // <inflections>
-                // Lag en kommaseparert liste av alle bøyningsformer (tag-navn: verdi)
-                const children = infl.children;
-                const forms = [];
-                for (let child of children) {
-                    forms.push(`<strong>${visNavn(child.tagName)}:</strong> ${child.textContent}`);
-                }
-                inflectionsText = forms.join("<br>");
+
+            if (pos === "verb" && inflections) {
+              const children = inflections.getElementsByTagName("*");
+              const forms = [];
+              for (let child of children) {
+                forms.push(`<strong>${visNavn(child.tagName)}:</strong> ${child.textContent}`);
+              }
+              inflectionsText = forms.join("<br>");
             }
 
-            let examplesText = "";
-            const exampleNodes = entry.getElementsByTagName("example");
-            if (exampleNodes.length > 0) {
-                // Tar kun første eksempel for korthet
-                const ex = exampleNodes[0];
-                const exEs = ex.getElementsByTagName("spanish")[0]?.textContent || "";
-                const exNo = ex.getElementsByTagName("norwegian")[0]?.textContent || "";
-                examplesText = `<div><em>Eksempel:</em> «${exEs}» – ${exNo}</div>`;
-            }
+            const norwegianDisplay =
+              pos === "verb"
+                ? "å " + entry.getElementsByTagName("norwegian")[0].textContent + (regular === "false" ? " (irreg.)" : " (reg.)")
+                : entry.getElementsByTagName("norwegian")[0].textContent;
 
-            // Sett sammen HTML for denne oppføringen
-            resultsDiv.innerHTML += `
-                <div class="entry">
-                    <h3>${spanishWord} – ${pos === "verb" ? "å " + norwegian : norwegian} ${tags.includes("uregelmessig") ? "(irreg.)" : "(reg.)"}</h3>
-                    <p>${pos}${gender ? " (" + gender + ")" : ""}${definition ? ": " + definition : ""}</p>
-                    ${inflectionsText ? `<p class="inflection">Bøyninger:<br> ${inflectionsText}</p>` : ""}
-                    <!-- ${tags ? `<p class="tags">Tagger: ${tags}</p>` : ""} -->
-                    ${examplesText ? examplesText : ""}
-                </div>`;
-        }
-    }
-    if (matchCount === 0) {
-        resultsDiv.innerHTML = "<p><em>Ingen treff.</em></p>";
-    }
-}
+            const spanishDisplay =
+              pos === "substantiv"
+                ? (gender === "m" ? "el " : gender === "f" ? "la " : "") + entry.getElementsByTagName("spanish")[0].textContent
+                : entry.getElementsByTagName("spanish")[0].textContent;
+
+            const tagList = tags
+              .split(",")
+              .map((t) => t.trim())
+              .filter((t) => t)
+              .map((t) => `<span class="tag">${t}</span>`)
+              .join(" ");
+
+            const resultHTML = `
+              <div class="result">
+                <h3>${spanishDisplay} – ${norwegianDisplay}</h3>
+                ${inflectionsText ? `<p class="inflection">${inflectionsText}</p>` : ""}
+                ${tagList ? `<p class="tags">${tagList}</p>` : ""}
+              </div>
+            `;
+
+            resultsDiv.innerHTML += resultHTML;
+          }
+        });
+      });
+    });
+
+  function visNavn(tag) {
+    const navn = {
+      presens: "Presens",
+      preteritum: "Preteritum",
+      perfektum: "Perfektum",
+      partisipp: "Perfektum partisipp",
+      gerundium: "Gerundium",
+      imperfektum: "Imperfektum",
+      futurum: "Futurum",
+      imperativ: "Imperativ",
+    };
+    return navn[tag] || tag;
+  }
+});
