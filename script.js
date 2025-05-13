@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
           const gender = entry.getElementsByTagName("gender")[0]?.textContent.toLowerCase() || "";
 
           const match =
-            spanishWord.includes(query) ||
-            norwegianWord.includes(query) ||
-            norwegianWord.includes(strippedQuery);
+            spanishWord.startsWith(query) ||
+            norwegianWord.startsWith(query) ||
+            norwegianWord.startsWith(strippedQuery);
 
           if (match) {
             const inflections = entry.getElementsByTagName("inflections")[0];
